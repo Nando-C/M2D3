@@ -7,3 +7,6 @@ section {
 .alert {
   text-align: center;
 }
+footer .container {
+  min-height: 20vh;
+}
