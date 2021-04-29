@@ -22,7 +22,7 @@
   <body>
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -95,7 +95,7 @@
               <a class="nav-link" href="#deal-day">Deal of the Day</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#last-minute">List Minute</a>
+              <a class="nav-link" href="#last-minute">Last Minute</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#testimonial">Testimonial</a>
@@ -212,42 +212,42 @@
         <div class="container-fluid">
           <div class="container">
             <div class="row">
-              <div class="col-6 col-md-4 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-3 my-2">
                 <img
                   class="img-fluid"
                   src="https://www.travelanddestinations.com/wp-content/uploads/2019/11/Beach-Destinations-in-Asia.jpg"
                   alt=""
                 />
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-3 my-2">
                 <img
                   class="img-fluid"
                   src="https://www.usnews.com/dims4/USNEWS/e2555e9/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F37%2F87%2F158d72c34c3995fe017a2b9fc1dc%2F151022-beachocean-stock.jpg"
                   alt=""
                 />
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-3 my-2">
                 <img
                   class="img-fluid"
                   src="https://media-cdn.tripadvisor.com/media/photo-s/14/97/7b/83/our-beautiful-beach.jpg"
                   alt=""
                 />
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-3 my-2">
                 <img
                   class="img-fluid"
                   src="https://lh3.googleusercontent.com/proxy/nI4E-Xdsika99-p6k1R7Rm7Z0Et-MBeaGjs0zpIbJNGLjDKHEMVkWmll-KFuyoeGhahtRgw83ybahZD5a-Td7acDMrDsTH9koQUeDu91yVEkWVXl3jstYS4_UcKzedM4KSyDnyQzOxnAFQ"
                   alt=""
                 />
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-3 my-2">
                 <img
                   class="img-fluid"
                   src="https://ssl.tzoo-img.com/images/blog/legacyblog/us/wp-content/uploads/2018/02/1_BoracayIsland_WhiteBeach_Philippines_shutterstock_401484094.jpg?width=412&spr=3"
                   alt=""
                 />
               </div>
-              <div class="col-6 col-md-4 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-3 my-2">
                 <img
                   class="img-fluid"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWC8e-PN5Vqt-ZC0140jYLijAkfkyWxIz8z-qXoK0I_q6R52wyQ7fuSO7gcfzUSUhoSkM&usqp=CAU"
@@ -270,14 +270,15 @@
       <section id="deal-day" class="d-none d-md-block">
         <div class="alert alert-info" role="alert">DEAL OF THE DAY</div>
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-8">
-              <img
-                class="img-fluid"
-                src="https://www.edutrips.com/wp-content/uploads/2017/01/japan.jpg?w=640"
-                alt=""
-              />
-            </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-8">
+                <img
+                  class="img-fluid"
+                  src="https://www.edutrips.com/wp-content/uploads/2017/01/japan.jpg?w=640"
+                  alt=""
+                />
+              </div>
             <div
               class="col-4 text-center d-flex flex-column justify-content-around"
             >
@@ -296,6 +297,7 @@
                 officiis vel labore.
               </p>
             </div>
+          </div>
           </div>
         </div>
       </section>
@@ -495,21 +497,22 @@
     <footer>
       <!-- Ex 11) Create a footer with the company information and a button "Contact Us" -->
       <div class="container-fluid bg-dark">
-        <div class="container text-center text-white">
-          <div class="row">
-            <div class="col-12 col-md-4">
+        <div class="container text-white text-center">
+          <div class="row p-3">
+            <div class="col-12 col-md-4 p-2 align-self-center">
               <img
+                class="img-fluid p-2"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwivZAXYgMO63hiVmFhLOhrvfKFmNItQ17g&usqp=CAU"
                 alt="logo"
               />
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 p-5 align-self-center">
               <h3>NandIago</h3>
-              <p>Address: 34 roman road,</p>
-              <p>London, UK</p>
-              <p>Phone number: 123456778</p>
+              <p class="mb-0">Address: 34 roman road,<br>
+              London, UK <br>
+              Phone number: 123456778</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 p-2 align-self-center"> 
               <!-- Button trigger modal -->
               <button
                 type="button"
@@ -580,6 +583,7 @@
       </div>
     </footer>
 
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
