@@ -7,6 +7,6 @@ section {
 .alert {
   text-align: center;
 }
-footer .container {
+footer .row {
   min-height: 40vh;
 }
